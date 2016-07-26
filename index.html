@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jorden Jolley Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+	
+	<!-- Jorden Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+			<script>
+			$(window).on("load",function() {
+		  $(window).scroll(function() {
+			$(".fade").each(function() {
+			  /* Check the location of each desired element */
+			  var objectBottom = $(this).offset().top + $(this).outerHeight();
+			  var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+			  
+			  /* If the element is completely within bounds of the window, fade it in */
+			  if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+				if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+			  } else { //object goes out of view (scrolling up)
+				if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+			  }
+			});
+		  }); $(window).scroll(); //invoke scroll-handler on page-load
+		});
+		
+		
+		</script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+			<!--
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Start Bootstrap
+                    </a> 
+                </li> -->
+				<br>
+				</br>
+                <li> <!-- About me-->
+				<a href="#portfolio"><img src = "people.png" alt = "About Me"></a>
+                </li>
+                <li> <!-- School -->
+                    <a href="#education"><img src = "graduation.png" alt = "School"></a>
+                </li>
+                <li> <!-- Work Experience-->
+                   <a href="#work"><img src = "briefcase.png" alt = "Work" href = "#" ></a>
+                </li>
+                <li> <!-- Extracuriccular-->
+                    <a href="#extra"><img src = "social.png" alt = "Extracuriccular" href = "#" ></a>
+                </li>
+                <li> <!-- Interests-->
+                    <a href="#"><img src = "puzzle.png" alt = "Interests" href = "#" ></a>
+                </li>
+            </ul>
+        </div>
+		</div>
+	
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <!--<div id="page-content-wrapper"> -->
+		<div class = "jumbotron responsive">
+		<p style = "color: #2F4F4F; float: right; font-size: 100px; font-weight: 400; padding-top:200px" width = 100px>
+		jorden jolley.
+		</p>
+		<p style = "color: #E47833; font-size: 40px; float:right; padding: 1px;">
+		AN ONLINE PORTFOLIO
+		</p>
+		<img src="uttower.jpg" width= 100% style="padding-bottom: 10px;">
+
+		<br>
+		</br>
+		
+		<!-- About me section-->
+		<section id="portfolio" style= "background-color: #E47833;" >
+            <div class="container-fluid">  
+                <div class="row"> <!-- includes all-->
+                    <div class="col-lg-12 full-width-div" style="background-color: #E47833;">
+						<div class="container-fluid" style="background-color: #E47833;">
+						<div id = "thebasics" style="min-height: 100%; background-color: #E47833;">
+						<br>
+						<h1 class = "fade" style= "color:white">
+						The Basics. <img src = "people.png" alt = "The Basics.">
+						</h1>
+					
+					<div class="row text-center" style="min-height:100%">
+					<div class="col-lg-10 col-lg-offset-1">
+                    <hr class="small">
+                    <div class="row" style= "padding: 50px;">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong style= "color:white">Rundown</strong>
+                                </h4>
+                                <p style= "color:white">I am Jorden Jolley, a junior Management Information Systems Major.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong style= "color:white">Focus</strong>
+                                </h4>
+                                <p style= "color:white">I am passionate about using technology to solve community issues.</p>
+            
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong style= "color:white">M.O.</strong>
+                                </h4>
+                                <p style= "color:white">Critical Thinker. Explorer. Social justice warrior.</p>
+                              
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong style= "color:white">Pursuits</strong>
+                                </h4>
+                                <p style= "color:white">Internship opportunities and interesting people.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</section>
+			
+				<!--Education -->	
+			<section id = "education" style = "background-color: white;">
+				<div class = "container">
+                  <div class="row"> 
+                    <div class="col-lg-12 full-width-div" style="background-color: white;">
+						<!--<div class="container-fluid" style="background-color: white;">-->
+						<div class= "container-fluid" id = "thebasics" style="min-height: 100%; background-color: white;">
+						<div class = "full-width-div" style="min-height: 100%; background-color: white; width:100%">
+						<h1 class = "fade" id= "sidestyle">
+						Education. <img src = "graduation.png" alt = "School">
+						</h1>
+						
+						<div class = "row">
+						<p id = "content" style= "text-align: center">
+						Current: 
+						The University of Texas at Austin <br></br>
+						Bachelor of Business Administration (BBA)<br></br>
+						Management Information Systems <br>
+						<img src="hookem.png">
+						</p>
+						<br>
+						<div style ="padding: 10px;">
+						<p style= "font-size: 40px; text-align: center;"><b>Graduation:</b> 2018 </br></p>
+						<p style= "font-size: 40px; text-align: center;"><b>GPA:</b> 3.88 </br></p>
+						</div>
+						</div>
+						
+						
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</section>
+						
+				
+			<!--Education -->
+
+		<!--Education -->	
+			<section id = "work" style = "background-color: #2F4F4F;">
+				<div class = "container">
+                  <div class="row"> 
+                    <div class="col-lg-12 full-width-div" style="background-color: #2F4F4F;">
+						<div class= "container-fluid" id = "thebasics" style="min-height: 100%; background-color: #2F4F4F;">
+						<div class = "full-width-div" style="min-height: 100%; background-color: #2F4F4F; width:100%">
+						<h1 class = "fade" id= "sidestyle" style= "color: white;">
+						Work Experience. <img src = "briefcase.png" alt = "The Basics.">
+						</h1>
+						
+						<div class = "row">
+						<br><ul class="timeline" style= "padding:100px;">
+							<li>
+							<div class="timeline-badge">
+							  <a><i class="fa fa-circle" id=""></i></a>
+							</div>
+							<div class="timeline-panel middlealign">
+								<br>
+								<img src= "gwclogo.png" height = 60px>
+								<div class="timeline-heading">
+									<h4>Summer Immersion Program Teaching Assistant<br></h4>
+								</div>
+								<div class="timeline-body">
+									<p>● Gave over 20 lectures in programming (Arduinos in C++,
+									HTML, CSS, Python, Javascript) to a class in a
+									7-week program in order to encourage girls to enter science and technology fields</p>
+									<p><b>Miami, FL</b></p>
+								</div>
+								<div class="timeline-footer">
+									<p>May - August 2016</p>
+								</div>
+							</div>
+						</li>
+						
+						<li class="timeline-inverted">
+							<div class="timeline-badge">
+								<a><i class="fa fa-circle invert" id=""></i></a>
+							</div>
+							<div class="timeline-panel middlealign">
+								<br>
+								<img src= "pclogo.png" height = 60px>
+								<div class="timeline-heading">
+									<h4>"Chaos"/Core Team<br></h4>
+								</div>
+								<div class="timeline-body">
+									<p>● Led and trained up to 17 staff members per week- over 60 staffers total - in Work Crew responsibilities <br>
+● Administered camp programs such as organization of closets for maximum efficiency and systematically
+arranging and delivering mail daily, allowing camp to run in an organized manner <br>
+● Facilitated retail operations and transactions in the Camp Store</p>
+									<p><b>Tyler, TX</b></p>
+								</div>
+								<div class="timeline-footer">
+									<p>May - August 2015</p>
+								</div>
+							</div>
+						</li>
+						
+						<li class="clearfix no-float"></li>
+					</ul>
+
+					  </div>
+					  </div>
+					  </div>
+					  </div>
+					  </div>
+					  </div>
+					  </section>
+					  
+		<!--Extracuricculars -->	
+			<section id = "extra" style = "background-color: white;">
+				<div class = "container">
+                  <div class="row"> 
+                    <div class="col-lg-12 full-width-div" style="background-color: white;">
+						<!--<div class="container-fluid" style="background-color: white;">-->
+						<div class= "container-fluid" id = "thebasics" style="min-height: 100%; background-color: white;">
+						<div class = "full-width-div" style="min-height: 100%; background-color: white; width:100%">
+						<h1 class = "fade" id= "sidestyle">
+						Extracurricular Activities. <img src = "social.png" alt = "School">
+						</h1>
+						
+						<div class = "row">
+						<p id = "content" style= "text-align: center">
+						<ul class="img-list">
+							  <li>
+								<a href="http://texasspirits.com">
+								  <img src="spirits (3).jpg" height="270">
+								  <span class="text-content"><span style= "color:white"><b>Texas Spirits</b> <br></br>
+								  Texas Spirits is an honorary social, spirit, and service organization for
+								  students at the University of Texas at Austin. The purpose of
+								  Texas Spirits is to promote spirit among the students of the
+								  University of Texas and to serve the Austin
+								  community in the best way possible. Our four pillars are spirit,
+								  love, service, and friendship..</span>
+								</a>
+							  </li>
+							  <li>
+								<a href="http://texasthon.org">
+								  <img src="thon.jpg" height="270">
+								  <span class="text-content"><span><b>Texas THON:<br> Team Captain</b> <br></br>
+								  Texas THON is a student-run philanthropy that raises awareness and funds for the Children's Miracle Network Hospitals at Dell Children's Medical Center of Central Texas, right here in Austin. As the largest student-run 
+								  philanthropy in the state of Texas, we strive to make BIG miracles.</span>
+								</a>
+							  </li>
+							  <li>
+								<a href="http://ijm.org">
+								  <img src="ijm.jpg" height="270">
+								  <span class="text-content"><span><b>International Justice Mission:<br> Longhorn Chapter</b></br>
+								  International Justice Mission is an international nonprofit organization focused on human rights, laws and la
+								  w enforcement. It is currently the world's largest anti-slavery organization.</span>
+								</a>
+							  </li>
+							  <li>
+								<a href="https://www.facebook.com/codeoragetx/">
+								  <img src="orange.jpg" height="270">
+								  <span class="text-content"><span><b>CODE Orange: <br> Mentor</b> <br></br>
+								  Code Orange is a new student organization that aims to
+								  tackle the issue of Digital Divide here in Austin
+								  through mentorship and education for children in underserved
+								  communities.</span>
+								</a>
+							  </li>
+							</ul>
+						</div>
+						
+						
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</section>
+						
+				
+			<!--Education -->
+					 
+					 
+		<a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+		</div>			
+		</div>
+    
+		
+		
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
